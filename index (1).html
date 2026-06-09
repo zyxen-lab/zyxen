@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digitale Visitenkarte</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family:Arial, sans-serif;
+    }
+
+    body{
+        background:linear-gradient(135deg,#1e293b,#0f172a);
+        min-height:100vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        color:white;
+    }
+
+    .card{
+        width:350px;
+        background:rgba(255,255,255,0.08);
+        backdrop-filter:blur(10px);
+        border-radius:20px;
+        padding:30px;
+        text-align:center;
+        box-shadow:0 10px 30px rgba(0,0,0,0.4);
+    }
+
+    .avatar{
+        width:120px;
+        height:120px;
+        border-radius:50%;
+        background:#334155;
+        margin:auto;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-size:48px;
+        font-weight:bold;
+    }
+
+    h1{
+        margin-top:20px;
+        margin-bottom:10px;
+    }
+
+    .job{
+        color:#94a3b8;
+        margin-bottom:20px;
+    }
+
+    .info{
+        margin:10px 0;
+    }
+
+    .button{
+        display:inline-block;
+        margin-top:20px;
+        padding:12px 24px;
+        background:#3b82f6;
+        color:white;
+        text-decoration:none;
+        border-radius:10px;
+        transition:0.3s;
+    }
+
+    .button:hover{
+        background:#2563eb;
+    }
+</style>
+</head>
+<body>
+
+<div class="card">
+   <img src="https://c10.patreonusercontent.com/4/patreon-media/p/post/147692957/7064e0d0135e415c87ad2148a4ad59d1/eyJ3IjoxMDgwfQ%3D%3D/1.png?token-hash=OeLDGESBe3N2oHLGfZ4-8wqd-1isxuDGWe3L6Jhs3R0%3D&token-time=1782259200" alt="Profilbild" class="avatar">
+
+    <h1>Zyxen</h1>
+    <div class="job">Hobby developerᗜ⩊ᗜ</div>
+
+    <div class="info">📧 zyxen@atomicmail.io</div>
+    <div class="info">📍 Germany</div>
+
+    <a href="mailto:zyxen@atomicmail.io" class="button">
+        Email me directly
+    </a>
+</div>
+
+</body>
+</html>
